@@ -1,0 +1,22 @@
+<div class="navbar resdev-navbar-inverse navbar-fixed-top">
+  <div class="resdev-navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".na\
+v-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="site_title brand" href="/"><img class="headerLogo" src="{{ site.baseurl}}/img/header-logo.png"></a>
+	  <div class="nav-collapse collapse resdev-nav">
+		<ul class='resdev-nav nav'>
+			{% for link in site.navigation %}
+			<li {% if page.url == link.url %}class="headNav active"{% else %}class="headNav"{% endif %}>
+			    <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+			</li>
+			{% endfor %}
+		</ul>
+      </div>
+    </div>
+  </div>
+</div>

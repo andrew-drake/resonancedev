@@ -1,0 +1,47 @@
+name: "Resonance Development"
+description: "Resonance Development provides full-service web development in Charlottetown, Prince Edward Island, Canada."
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+layout: default
+baseurl: /resonancedev/
+navigation:
+- text: HOME
+  title: Home
+  url: /resonancedev/
+- text: NEWS
+  title: News
+  url: /resonancedev/news/
+- text: PORTOFOLIO
+  title: Portfolio
+  url: /resonancedev/portfolio/
+- text: CAREERS
+  title: Careers
+  url: /resonancedev/careers/
+- text: CONTACT
+  title: Contact
+  url: /resonancedev/contact/
+footernavigation:
+- text: Home
+  title: Home
+  url: /resonancedev/
+- text: News
+  title: News
+  url: /resonancedev/news/  
+- text: Services
+  title: Services
+  url: /resonancedev/services/
+- text: Portfolio
+  title: Portfolio
+  url: /resonancedev/portfolio/  
+- text: Careers
+  title: Careers
+  url: /resonancedev/careers/
+- text: Contact
+  title: Contact
+  url: /resonancedev/contact/  
+  

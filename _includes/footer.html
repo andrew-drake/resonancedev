@@ -1,0 +1,35 @@
+  </div>
+	<div id="footer" class="clearfix">
+    	<div class="container">
+			<div class="span5">
+		      <img class="footerLogo" src="{{ site.baseurl}}/img/footer-logo.png">
+				<div id="footCopyRight">
+		            <p class="copyRight">© 2013 Resonance Development</p>
+		        </div>
+			</div>
+			<div class="span3">
+				<div class="footer">
+					<ul class="contactUs">
+						<li class="contactUsTitle">Contact Us</li>
+						<li>866 519 1323</li>
+						<li>help@resonancedev.ca</li>
+						<li>Charlottetown, PE</li>
+						<li>A1A 1A1 Canada</li>
+					</ul>
+				</div>
+			</div>	
+			<div class="span2">	
+				<div class="footer">
+					<ul class="footerNav">
+						{% for link in site.footernavigation %}
+						<li>
+					    	<a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+						</li>
+						{% endfor %}
+					</ul>
+    			</div>
+			</div>
+		</div><!--end of container div-->
+	</div>
+  </body>
+</html>

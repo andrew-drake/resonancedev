@@ -1,0 +1,17 @@
+{% include header.html %}
+{% include navigation.html %}
+
+<div class="row-fluid">
+	{{ content }}
+		{% for items in site.categories.team %}
+		<div class="span3">
+		<ul class="team_list">
+			<li><img src="{{ site.baseurl}}/{{items.image}}"></li>
+			<li><a href="{{ site.baseurl}}{{items.permalink}}">{{ items.title }}</a></li>
+			<li>{{ items.subtitle}}</li>
+		</ul>
+		</div>
+		{% endfor %}
+</div>
+
+{% include footer.html %}
