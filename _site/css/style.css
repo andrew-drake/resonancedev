@@ -174,8 +174,60 @@
 }
 /******** End of Home ********/
 
+/******** Start of Contact ********/
+
+.topContact {
+	height:110px;
+	background:url(../img/blue-bck.png) left center repeat;
+}
+
+.contactTitleBarText {
+	margin-top:40px;
+	font-size:40px;
+	font-weight:900;
+	color:#ffffff;
+}
 
 
+.middleContact {
+	height:270px;
+	background:url(../img/top-area.png) left center repeat-x;
+	margin-bottom:170px;
+}
+
+.middleContactHR {
+	border-bottom: 1px solid #b3b3b3;
+	width:425px;
+}
+
+.middleContactInfo {
+	margin-left:-30px;
+	padding-top:30px;
+}
+
+.middleContactInfo p{width:425px;}
+
+.middleContactForm {padding-top:30px;}
+
+.middleContactInfoTitle {
+	color:#006eb7;
+	font-weight:900;
+	padding-bottom:30px;
+	font-size:20px;
+}
+
+.middleContactTitle {
+	font-size:15px;
+	font-weight:bold;
+	margin-left:-30px;
+}
+
+.middleContactText {
+	margin-left:-20px;
+	font-size:15px;
+	color:#44a3e3;
+}
+/******** End of Contact ********/
 
 
 
