@@ -8,7 +8,7 @@ paginate: 10
 markdown: rdiscount
 permalink: pretty
 layout: default
-baseurl: /resonancedev/
+baseurl: /resonancedev
 navigation:
 - text: HOME
   title: Home

@@ -1,0 +1,38 @@
+{% include header.html %}
+{% include navigation.html %}
+
+</div>
+	<div class="topContact">
+		<div class="container">
+			<div class="contactTitleBarText">Portfolio</div>
+		</div>	
+	</div>
+	<div class="middleContact">
+		<div class="container">
+			<div class="row-fluid">
+					<div class="span12">
+						{% for items in site.categories.portfolio %}
+						<div class="portfolioLeft">
+							<a href="{{ site.baseurl}}{{items.permalink}}"><div class="portfolioTitle">{{ items.title }}</div></a>
+							<div class="portfolioTags"><strong>Tags: </strong> {{ items.tags }}</div>
+							<div class="portfolioContent">{{ items.content }}</div>	
+						</div>
+						<div class="portfolioRight">
+							<fieldset class="projectInfoBox">
+								<legend>Project Information</legend>
+									<ul class="projectInfo">
+										<li><div class="fieldLabel">Client: </div><div class="fieldItem"> {{ items.client }}</li>
+										<li><div class="fieldLabel">Launch Date: </div><div class="fieldItem"> {{ items.launch_date }}</li>
+										{% if items.link %}<li><div class="fieldLabel">Link:</div><div class="fieldItem"> {{ items.link }}</li>{% endif %}	
+									</ul>
+							</fieldset>
+							<div class="portfolioImage">
+								<img src="{{ site.baseurl}}/{{ items.image }}">
+							</div>
+						</div>
+						{% endfor %}
+					</div> 
+				</div>
+			</div>
+		</div>
+{% include footer.html %}

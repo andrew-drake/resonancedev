@@ -1,6 +1,8 @@
 .team_list {list-style: none;}
 
 /******* Start of Header *********/
+.active {color:black;}
+
 .resdev-navbar-inner {
   height: 100px
   padding-right: 20px;
@@ -190,9 +192,9 @@
 
 
 .middleContact {
-	height:270px;
-	background:url(../img/top-area.png) left center repeat-x;
-	margin-bottom:170px;
+	height:auto;
+	background:url(../img/top-area.png) left top repeat-x;
+	margin-bottom:10px;
 }
 
 .middleContactHR {
@@ -229,9 +231,64 @@
 }
 /******** End of Contact ********/
 
+/******** Start of Portfolio ********/
+fieldset {
+	border:2px solid #d6d8d5;
+}
+.portfolioTitle {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.portfolioTags {
+	max-width:670px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
 
+.projectInfoBox {
+	width:335px;
+	margin-bottom:10px;
+}
 
+.projectInfoBox legend{
+	font-size:14px;
+	margin-bottom:-10px;
+	width:37%;
+	margin-left:5px;
+	color:#737474;
+}
 
+.projectInfo {
+	list-style-type:none;
+	margin-left:10px;
+}
+
+.fieldLabel {
+	font-weight:bold;
+	float:left;
+}
+
+.portfolioImage {
+	width: 330px;
+	height:auto;
+	border: 1px solid #d6d8d5;
+	padding: 4px;
+}
+
+.portfolioLeft {
+	float:left;
+	padding-top:20px;
+	width:670px;
+	min-height:400px;
+}
+
+.portfolioRight {
+	float:right;
+	padding-top:20px;
+	padding-right:50px;
+}
+
+/******** End of Portfolio ********/
 
 
 
