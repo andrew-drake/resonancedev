@@ -1,0 +1,18 @@
+<div class="flexslider">
+  <ul class="slides">
+    {% for slides in site.categories.portfolio %}
+    	<li>
+			<div class="featuredRight">
+				<img class="featuredImage" src="{{ site.baseurl}}/{{ slides.image }}">
+			</div>
+			<div class="featuredLeft">
+				<div class="featuredTitle">{{ slides.title }}</div>
+				<div class="featuredContent">{{ slides.content| split:'<!--break-->' | first }}</div>
+				<div class="featuredReadMore">
+					<a href="/resonancedev/portfolio/"><button class="btn btn-large btn-featuredReadMore">LEARN MORE</button></a>
+				</div>
+			</div>
+		</li>
+    {% endfor %}
+  </ul>
+</div>

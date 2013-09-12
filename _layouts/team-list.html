@@ -1,17 +1,26 @@
 {% include header.html %}
 {% include navigation.html %}
-
-<div class="row-fluid">
-	{{ content }}
+</div>
+	<div class="topContact">
+		<div class="container">
+			<div class="contactTitleBarText">Careers</div>
+		</div>	
+	</div>
+<div class="middleContact">
+<div class="container">
+	<div class="row-fluid">
 		{% for items in site.categories.team %}
-		<div class="span3">
+		<div class="span4">
 		<ul class="team_list">
-			<li><img src="{{ site.baseurl}}/{{items.image}}"></li>
-			<li><a href="{{ site.baseurl}}{{items.permalink}}">{{ items.title }}</a></li>
-			<li>{{ items.subtitle}}</li>
+			<li><img class="careerImage" src="{{ site.baseurl}}/{{items.image}}"></li>
+			<li><a class="careerTitle" href="{{ site.baseurl}}{{items.permalink}}">{{ items.title }}</a></li>
+			<li class="careerSubtitle">{{ items.subtitle}}</li>
+			<li class="careerContent">{{ items.content }}</li>
 		</ul>
 		</div>
 		{% endfor %}
+		<hr class="careersHR">
+		<script type="text/javascript" src="http://www.formstack.com/forms/js.php?nojquery=1&nojqueryui=1&no_style=1&form=1572501&viewkey=1cSY0sP2jz&style_version=v3"></script><noscript><a href="http://www.formstack.com/forms/?1572501-1cSY0sP2jz" title="Online Form">Online Form - resonancedev.ca Job Application</a></noscript><script type='text/javascript'>if (typeof $ == 'undefined' && jQuery){ $ = jQuery}</script>
 </div>
 
 {% include footer.html %}

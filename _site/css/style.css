@@ -4,7 +4,7 @@
 .active {color:black;}
 
 .resdev-navbar-inner {
-  height: 100px
+  height: 100px;
   padding-right: 20px;
   padding-left: 20px;
   background-color: #ffffff;
@@ -116,7 +116,9 @@
   	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-.btn-homeInfo hover {background-position:0px;}
+.btn-homeInfo:hover {
+	background-position:0px;
+}
 
 .topHomeLearnMore {padding-top:110px;}
 
@@ -137,7 +139,6 @@
 .middleHome {
 	height:270px;
 	background:url(../img/top-area.png) left center repeat-x;
-	padding-top:-10px;
 	text-align:center;
 }
 
@@ -153,7 +154,58 @@
 
 
 .featuredHome {
+	padding-top:30px;
+	min-height:460px;
+}
 
+.featuredRight {
+	width:360px;
+	float:right;
+}
+
+.featuredLeft {
+	float:left;
+	width:770px;
+}
+
+.featuredImage {
+	width: 330px;
+	height:auto;
+	border: 1px solid #d6d8d5;
+	padding: 4px;
+	max-height: 235px;
+}
+
+.featuredTitle {
+	font-size:40px;
+	font-weight:bold;
+	padding-bottom:20px;
+}
+
+.featuredReadMore {padding-top:30px;}
+
+.btn-featuredReadMore {
+	width:200px;
+	border-radius:3px;
+  	color: #ffffff;
+	font-weight:900;
+  	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  	background-color: #ffffff;
+  	*background-color: #2f96b4;
+  	background-image: -moz-linear-gradient(top, #3fa4dc, #3fa4dc);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3fa4dc), to(#3fa4dc));
+  	background-image: -webkit-linear-gradient(top, #3fa4dc, #3fa4dc);
+  	background-image: -o-linear-gradient(top, #3fa4dc, #3fa4dc);
+  	background-image: linear-gradient(to bottom, #3fa4dc, #3fa4dc);
+  	background-repeat: repeat-x;
+  	border-color: #2f96b4 #2f96b4 #1f6377;
+  	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-featuredReadMore:hover {
+	background-position:0px;
 }
 
 .aboutHomeTitle {
@@ -290,6 +342,65 @@ fieldset {
 
 /******** End of Portfolio ********/
 
+/*********** Start of News **************/
+.news_list {list-style-type:none;}
+
+.newsTitle {
+	font-weight:bold;
+	color:#40a4d8;
+	padding-top:20px;
+	font-size:20px;
+}
+
+.newsDate {
+	font-weight:500;
+	padding-bottom:10px;
+}
+.newsAuthor {
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.newsImage {
+	padding-top:20px;
+}
+
+.newsRight {
+	width:770px;
+	float:right;
+	padding-right:40px;
+}
+
+.newsLeft {
+	float:left;
+	width:360px;
+}
+/*********** End of News ************/
+
+/*********** Start of Career ************/
+
+.careersHR {
+	padding-top:10px;
+	border-bottom: 1px solid #b3b3b3;
+	width:100%;
+}
+
+a.careerTitle{
+	text-decoration:none;
+}
+
+.careerSubtitle {
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.careerImage {
+	width:200px;
+	height:244px;
+}
+/******** End of Career ********/
 
 
 

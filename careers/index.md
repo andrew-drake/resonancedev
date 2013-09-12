@@ -1,4 +1,4 @@
 ---
-title: Team
-layout: team-list
+title: Careers
+layout: careers
 ---

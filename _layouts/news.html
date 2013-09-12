@@ -1,0 +1,29 @@
+{% include header.html %}
+{% include navigation.html %}
+</div>
+	<div class="topContact">
+		<div class="container">
+			<div class="contactTitleBarText">News</div>
+		</div>	
+	</div>
+<div class="middleContact">
+<div class="container">
+	<div class="row-fluid">
+		{% for items in site.categories.news %}
+		<div class="newsLeft">
+			<center>{% if items.image %}<img class="newsImage" src="{{ site.baseurl}}/{{ items.image }}">{% endif %}</center>
+		</div>
+		<div class="newsRight">	
+			<ul class="news_list">
+				<li class="newsTitle">{{ items.title }}</li>
+				{% if items.author %}<li class="newsAuthor">By: {{ items.author }}</li>{% endif %}
+				<li class="newsDate">{{ items.date | date: "%B %d, %Y" }}</li>
+				<li class="newsContent">{{ items.content }}</li>
+			</ul>
+		</div>
+		<hr class="careersHR">
+		{% endfor %}
+		</div>
+</div>
+
+{% include footer.html %}
