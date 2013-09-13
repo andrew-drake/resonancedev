@@ -8,26 +8,26 @@ paginate: 10
 markdown: rdiscount
 permalink: pretty
 layout: default
-baseurl: /resonancedev
+baseurl: /resonancedev/
 navigation:
 - text: HOME
   title: Home
-  url: /
+  url: /resonancedev/
 - text: NEWS
   title: News
-  url: /news/
+  url: /resonancedev/news/
 - text: PORTOFOLIO
   title: Portfolio
-  url: /portfolio/
-- text: SERVICES
+  url: /resonancedev/portfolio/
+- text: SERVICE
   title: Services
-  url: /services/
+  url: /resonancedev/services/
 - text: CAREERS
   title: Careers
-  url: /careers/
+  url: /resonancedev/careers/
 - text: CONTACT
   title: Contact
-  url: /contact/
+  url: /resonancedev/contact/
 footernavigation:
 - text: Home
   title: Home
