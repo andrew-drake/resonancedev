@@ -11,8 +11,8 @@ v-collapse">
 	  <div class="nav-collapse collapse resdev-nav">
 		<ul class='resdev-nav nav'>
 			{% for link in site.navigation %}
-			<li {% if page.url == link.url %}class="active headNav"{% else %}class="headNav"{% endif %}>
-			    <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+			<li {% if page.active == link.url %}class="active headNav"{% else %}class="headNav"{% endif %}>
+			    <a href="{{link.url}}" title="{{link.title}}">{{link.title}}</a>
 			</li>
 			{% endfor %}
 		</ul>
