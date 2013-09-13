@@ -12,22 +12,22 @@ baseurl: /resonancedev
 navigation:
 - text: HOME
   title: Home
-  url: /resonancedev/
+  url: /
 - text: NEWS
   title: News
-  url: /resonancedev/news/
+  url: /news/
 - text: PORTOFOLIO
   title: Portfolio
-  url: /resonancedev/portfolio/
+  url: /portfolio/
 - text: SERVICES
   title: Services
-  url: /resonancedev/services/
+  url: /services/
 - text: CAREERS
   title: Careers
-  url: /resonancedev/careers/
+  url: /careers/
 - text: CONTACT
   title: Contact
-  url: /resonancedev/contact/
+  url: /contact/
 footernavigation:
 - text: Home
   title: Home
