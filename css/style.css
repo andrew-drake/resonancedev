@@ -196,6 +196,7 @@
 .featuredHome {
 	padding-top:30px;
 	min-height:460px;
+	background:url(../img/noise.png) left center repeat-x;
 }
 
 .featuredRight {
