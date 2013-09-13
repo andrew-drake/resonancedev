@@ -9,7 +9,14 @@
 <div class="middleContact">
 <div class="container">
 	<div class="row-fluid">
-
+		<div class="span8">
+		{% for items in site.categories.services %}
+		<ul class="team_list">
+			<li><h3 class="servicesTitle">{{ items.title }}</h3></li>
+			<li class="servicesContent">{{ items.content }}</li>
+		</ul>
+		{% endfor %}
+		</div>
 </div>
 
 {% include footer.html %}

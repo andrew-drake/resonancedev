@@ -19,14 +19,6 @@
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
-.navbar .nav > .active > a, .navbar .nav > .active > a:hover, {
-	color: black;
-	text-decoration: none;
-	background-color: #ffffff;
-	-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
-	-moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
-	box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0);
-}
 .fl {float:left;}
 
 .fr {float:right;}
@@ -135,6 +127,7 @@
 .fsForm .fsSubmit {float:left;}
 
 #field21578403 {width:440px;} 
+
 
 /*********** End of Form styles **********/
 
@@ -482,6 +475,12 @@ a.careerTitle{
 	height:244px;
 }
 /******** End of Career ********/
+
+/**************Start of Services**************/
+.servicesTitle {color:#3197d3;}
+
+/**************End of Services**************/
+
 
 
 
