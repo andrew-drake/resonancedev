@@ -19,6 +19,9 @@ navigation:
 - text: PORTOFOLIO
   title: Portfolio
   url: /resonancedev/portfolio/
+- text: SERVICES
+  title: Services
+  url: /resonancedev/services/
 - text: CAREERS
   title: Careers
   url: /resonancedev/careers/
