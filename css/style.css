@@ -25,7 +25,6 @@
 
 .resdev-navbar-inverse .brand, .resdev-navbar-inverse .nav > li > a {
 	color: #3599cb;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
 .resdev-nav {
@@ -299,7 +298,6 @@
 	border-bottom: 1px solid #b3b3b3;
 	width: 535px;
 	padding-top:20px;
-	padding-bottom:-10px;
 }
 
 .middleContactInfo {
