@@ -1,15 +1,23 @@
 {% include header.html %}
 {% include navigation.html %}
 
-<div class="row-fluid">
-		<div class="span12">
-		<ul class="team_list">
-			<li><h2>{{ title }}</h2></li>
-			<li><img src="{{image}}"></li>
-			<li><h3>{{ launch_date }}</h3></li>
-			<li><h4>{{ content }}</h4></li>	
-		</ul>
-		</div>
 </div>
+	<div class="topContact">
+		<div class="container">
+			<div class="contactTitleBarText">Portfolio</div>
+		</div>	
+	</div>
+	<div class="middleContact">
+		<div class="container">
+			<div class="row-fluid">
+				<ul class="team_list">
+					<li><h2>{{ title }}</h2></li>
+					<li><img src="{{ image }}"></li>
+					<li><h3>{{ launch_date }}</h3></li>
+					<li><h4>{{ content }}</h4></li>	
+				</ul>
+			</div>
+		</div>
+	</div>
 
 {% include footer.html %}

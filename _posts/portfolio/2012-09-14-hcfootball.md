@@ -2,6 +2,7 @@
 layout: portfolio
 category: portfolio
 permalink: /portfolio/hcfootball
+active: /resonancedev/portfolio/
 
 title: Holland College Football
 image: /img/hcfootball_screenshot.png

@@ -2,6 +2,7 @@
 layout: portfolio
 category: portfolio
 permalink: /portfolio/brainquest
+active: /resonancedev/portfolio/
 
 title: Brain Quest
 image: /img/brainquest_screenshot.png

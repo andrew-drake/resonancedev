@@ -2,6 +2,7 @@
 layout: portfolio
 category: portfolio
 permalink: /portfolio/on_assignment
+active: /resonancedev/portfolio/
 
 title: OnAssignment Healthcare Drupal Portal
 image: /img/onAssignment_screenshot.png

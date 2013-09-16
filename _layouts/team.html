@@ -1,16 +1,25 @@
 {% include header.html %}
 {% include navigation.html %}
 
-<div class="row-fluid">
+</div>
+	<div class="topContact">
+		<div class="container">
+			<div class="contactTitleBarText">Team</div>
+		</div>	
+	</div>
+<div class="middleContact">
+<div class="container">
+	<div class="row-fluid">
 		<div class="span12">
 		<ul class="team_list">
-			<li><h2>{{ items.title }}</h2></li>
-			<li><img src="{{ site.baseurl}}/{{team.image}}"></li>
+			<li><h2>{{ title }}</h2></li>
+			<li><img src="{{ site.baseurl}}/{{image}}"></li>
 			<li><h3>{{ categories.team.subtitle }}</h3></li>
 			<li><h4>{{ sites.categories.team }}</h4></li>
 			<li><h4>{{ content }}</h4></li>	
 		</ul>
 		</div>
+	</div>
 </div>
-
+</div>
 {% include footer.html %}

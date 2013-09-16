@@ -2,6 +2,7 @@
 layout: portfolio
 category: portfolio
 permalink: /portfolio/aol_eureka
+active: /resonancedev/portfolio/
 
 title: AOL Eureka
 image: /img/aoleureka_screenshot.png

@@ -2,6 +2,7 @@
 layout: portfolio
 category: portfolio
 permalink: /portfolio/ge_vizualizing
+active: /resonancedev/portfolio/
 
 title: GE Visualizing.org
 image: /img/gevisualizing_screenshot.png
