@@ -1,0 +1,203 @@
+/*******************1100 RESPONSIVE STYLE*******************************/
+@media all and (min-width:1100px) {
+	
+	.container {width:960px;margin-left:auto;margin-right:auto;}
+
+/*****************Start Homepage 1100 Responsive Style******************************/
+
+.headNav {
+	padding-left: 35px;
+	font-size: 16px;
+}
+
+/****************End Homepage 1100 Responsive Style*********************************/
+	
+}/*end of media query*/
+
+
+/*******************980 RESPONSIVE STYLE*******************************/
+@media all and (max-width: 1099px) and (min-width:980px) {
+
+body {padding-top: 100px;}
+/*****************Start Homepage 980 Responsive Style******************************/
+.aboutHomeIcons {
+	padding-left: 55px;
+}
+
+.headNav {
+padding-left: 36px;
+font-size: 16px;
+}
+
+.featuredLeft {	
+	float: left;
+	width: 572px;
+}
+
+.featuredRight {
+	width: 285px;
+	float: right;
+}
+
+.featuredTitle {
+	font-size: 35px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+.topHomeTitle {
+	margin-left: -25px;
+}
+
+/****************End Homepage 980 Responsive Style*********************************/
+	
+}/*end of media query*/
+/************************START OF 780 RESPONSIVE STYLE*********************************/
+
+@media all and (max-width: 979px) and (min-width:780px) {
+	.container {width:750px;margin-left:auto;margin-right:auto;}
+	
+body {padding-top: 100px;}
+	
+/*****************Start Header 780 Responsive Style******************************/
+.resdev-navbar-inner {
+	height: 100px;
+	border: 0px solid #d4d4d4;
+	border-bottom:1px solid #d4d4d4;
+}
+
+.headNav {
+	padding-left: 17px;
+	font-size: 14px;
+}
+
+.resdev-nav {
+	float: left;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+
+/****************End Header 780 Responsive Style*********************************/
+
+/************** Start of Footer 780 Responsive Style *************************/
+
+.footerNav {
+	padding-left: 200px;
+	margin-top: -160px;
+}
+/************** End of Footer 780 Responsive Style *************************/
+
+/*****************Start Homepage 780 Responsive Style******************************/
+
+.featuredLeft {	
+	float: left;
+	width: 430px;
+}
+
+.featuredRight {
+	width: 285px;
+	float: right;
+}
+
+.featuredTitle {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+.topHomeTitle {
+margin-left: -135px;
+}
+
+.aboutHomeIcons {
+	padding-left: 38px;
+}
+
+.middleHomeText {
+	margin-left: 10px;
+	width: 200px;
+}
+
+.btn-homeInfo {
+	margin-left: -20px;
+}
+
+/****************End Homepage 780 Responsive Style*********************************/
+
+
+}/*end of media query*/
+
+/************************END OF 780 RESPONSIVE STYLE********************************/
+
+
+/************************START OF 490 RESPONSIVE STYLE********************************/
+
+@media all and (max-width:779px) and (min-width:490px) {
+	.container {width:470px;margin-left:auto;margin-right:auto;}
+	
+/***********************START 490 home page responsive*************************/
+	
+.topHomeTitle {
+	width: auto;
+	font-size:35px;
+}
+/*******************End of 490 home page responsive***********************/
+
+
+
+}/*end of media query*/
+
+/************************END OF 490 RESPONSIVE STYLE********************************/
+
+
+/***********************START OF MOBILE RESPONSIVE STYLE****************************/
+
+@media all and (max-width:489px) and (min-width:0px) {
+.margin {margin-left:0;margin-right:0;}
+.container {width:90%;margin-left:auto;margin-right:auto;min-width:200px; max-width:400px;}
+	
+.resdev-nav {display:none;}
+.footerNav {display:none;}
+.copyRight {margin-left: -10px;}
+.footerLogo {margin-left: -10px;}
+.contactUs{width: 150px;}
+.footer {
+	margin-left:180px;
+	margin-top: -150px;
+}
+
+/*****************Start Homepage Mobile Responsive Style******************************/
+
+.featuredHome {display:none;}
+.topHome {height: 365px;}
+.topHomeTitle {
+	line-height: 35px;
+	width: 338px;
+	font-size: 31px;
+	text-align: center;
+	margin-top: 65px;
+	margin-bottom: -66px;
+	margin-left: -55px;
+}
+
+.btn-homeInfo{margin-left: -65px;}
+.middleHome {height: 345px;}
+.aboutHomeIcons {padding-left: 20px;}
+.homeIconsImage{
+	height: 65px;
+	max-width: 100%;
+	margin-left: -10px;
+}
+
+.middleHomeTitle {
+	padding-top: 30px;
+	font-size: 17px;
+}
+/*****************End Homepage Mobile Responsive Style******************************/
+
+}/*end of media query*/
+
+/**********************END OF MOBILE RESPONSIVE STYLE********************************/
