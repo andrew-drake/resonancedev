@@ -345,8 +345,9 @@ margin-left: -135px;
 	margin-left:180px;
 	margin-top: -150px;
 }
+#footer {margin-right:-50px}
 .mobileNavBar {display:block;}
-
+.resdev-navbar-inner {z-index:999;}
 #menuMobile {
 	display: block;
 	background: #ffffff;
@@ -355,6 +356,7 @@ margin-left: -135px;
 	padding-top: 25px;
 	color: #0378be;
 	float: left;
+	z-index:1002;
 }
 
 #navMobile.js {
@@ -378,7 +380,10 @@ margin-left: -135px;
 /*****************Start Homepage Mobile Responsive Style******************************/
 
 .featuredHome {display:none;}
-.topHome {height: 365px;}
+.topHome {
+	height: 365px;
+	margin-right:-50px;
+}
 .topHomeTitle {
 	line-height: 35px;
 	width: 338px;
@@ -388,9 +393,12 @@ margin-left: -135px;
 	margin-bottom: -66px;
 	margin-left: -55px;
 }
-
+.aboutHome{margin-right:-50px;}
 .btn-homeInfo{margin-left: -65px;}
-.middleHome {height: 345px;}
+.middleHome {
+	height: 345px;
+	margin-right:-50px;
+}
 .aboutHomeIcons {padding-left: 20px;}
 .homeIconsImage{
 	height: 65px;
