@@ -251,10 +251,28 @@ margin-left: -135px;
 	text-decoration:none;
 }
 /***********************START 490 home page responsive*************************/
-	
+.topHome {height: 365px;}
 .topHomeTitle {
-	width: auto;
-	font-size:35px;
+	line-height: 35px;
+	width: 392px;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 65px;
+	margin-bottom: -66px;
+	margin-left: -55px;
+}
+.btn-homeInfo{margin-left: -65px;}
+.middleHome {height: 345px;}
+.aboutHomeIcons {padding-left: 20px;}
+.homeIconsImage{
+	height: 65px;
+	max-width: 100%;
+	margin-left: -10px;
+}
+
+.middleHomeTitle {
+	padding-top: 30px;
+	font-size: 17px;
 }
 
 .featuredRight {
@@ -388,7 +406,7 @@ body {
 }
 /*****************End Homepage Mobile Responsive Style******************************/
 
-/****************End News Mobile Responsive Style**********************/
+/****************Start News Mobile Responsive Style**********************/
 .newsRight {
 	width: 380px;
 	padding-right: 0px;
@@ -408,8 +426,34 @@ body {
 	width: 370px;
 	min-height: 0px;
 }
+.portfolioTags {display:none;}
+
 
 /****************End Portfolio Mobile Responsive Style**********************/
+
+/****************Start Contact Mobile Responsive Style**********************/
+.team_list {display:none;}
+.contactTeamTitle {display:none;}
+.middleContactForm {
+	padding-top: 30px;
+	padding-left: 9px;
+	width: 300px;
+}
+.middleContactInfo {
+	margin-left: 0px;
+}
+.middleContactInfo p {
+	width: 330px;
+}
+
+.middleTopContactHR {
+	width: 335px;
+}
+
+.middleBottomContactHR {
+	width: 335px;
+}
+/****************End Contact Mobile Responsive Style**********************/
 
 }/*end of media query*/
 
