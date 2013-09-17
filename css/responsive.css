@@ -1,16 +1,29 @@
 @media all and (min-width: 1200px){
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {width: 1170px;}
+
+#menuMobile {display: none;}
+.mobileNavBar {display: none;}
 }
 /*******************1100 RESPONSIVE STYLE*******************************/
 @media all and (max-width: 1199px) and (min-width:1100px) {
 	
 .container {width:960px;margin-left:auto;margin-right:auto;}
+#menuMobile {display: none;}
+.mobileNavBar {display: none;}
+
+
 
 /*****************Start Homepage 1100 Responsive Style******************************/
 
 .headNav {
-	padding-left: 35px;
+	padding-left: 16px;
 	font-size: 16px;
+}
+.headNav {
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 16px;
+	padding-top: 50px;
 }
 
 .featuredRight {width: 340px;}
@@ -37,14 +50,19 @@
 .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {width: 940px;}
 
 body {padding-top: 100px;}
+
+.headNav {
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 16px;
+	padding-top: 50px;
+}
+#menuMobile {display: none;}
+.mobileNavBar {display: none;}
+
 /*****************Start Homepage 980 Responsive Style******************************/
 .aboutHomeIcons {
 	padding-left: 55px;
-}
-
-.headNav {
-padding-left: 36px;
-font-size: 16px;
 }
 
 .featuredLeft {	
@@ -94,7 +112,10 @@ font-size: 16px;
 	.container {width:750px;margin-left:auto;margin-right:auto;}
 	
 body {padding-top: 100px;}
-	
+
+#menuMobile {display: none;}
+.mobileNavBar {display: none;}
+
 /*****************Start Header 780 Responsive Style******************************/
 .resdev-navbar-inner {
 	height: 100px;
@@ -103,14 +124,13 @@ body {padding-top: 100px;}
 }
 
 .headNav {
-	padding-left: 17px;
+	padding-right: 9px;
+	padding-left:9px;
 	font-size: 14px;
 }
 
 .resdev-nav {
 	float: left;
-	padding-top: 25px;
-	padding-bottom: 10px;
 }
 
 
@@ -201,8 +221,35 @@ margin-left: -135px;
 	.footer {
 		margin-left:270px;
 		margin-top: -150px;
-	}
+}
+.mobileNavBar {display:block;}
+
+#menuMobile {
+	display: block;
+	background: #FFFFF;
+	font-size: 4.35em;
+	padding-top: 36px;
+	color: #0378be;
+}
+
+#navMobile.js {
+	display: none;
+}
 	
+#navMobile ul {
+}
+#navMobile li {
+	background: #ffffff;
+	list-style-type: none;
+	width: 20%;
+	padding-left: 10px;
+	margin-left: 273px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#navMobile a {
+	text-decoration:none;
+}
 /***********************START 490 home page responsive*************************/
 	
 .topHomeTitle {
@@ -278,6 +325,35 @@ margin-left: -135px;
 .footer {
 	margin-left:180px;
 	margin-top: -150px;
+}
+.mobileNavBar {display:block;}
+
+#menuMobile {
+	display: block;
+	background: #FFFFF;
+	font-size: 4.35em;
+	text-align: center;
+	padding-top: 25px;
+	color: #0378be;
+}
+
+#navMobile.js {
+	display: none;
+}
+	
+#navMobile ul {
+}
+#navMobile li {
+	background: #ffffff;
+	list-style-type: none;
+	width: 20%;
+	padding-left: 10px;
+	margin-left: 273px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#navMobile a {
+	text-decoration:none;
 }
 
 /*****************Start Homepage Mobile Responsive Style******************************/

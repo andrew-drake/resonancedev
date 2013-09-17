@@ -37,7 +37,7 @@ v-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="site_title brand" href="/"><img class="headerLogo" src="/resonancedev/img/header-logo.png"></a>
+      <a class="site_title brand" href="/resonancedev"><img class="headerLogo" src="/resonancedev/img/header-logo.png"></a>
 	  <div class="nav-collapse collapse resdev-nav">
 		<ul class='resdev-nav nav'>
 			
@@ -67,6 +67,35 @@ v-collapse">
 			
 		</ul>
       </div>
+	<div class="mobileNavBar">
+		<ul id="navMobile">
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/" title="Home">Home</a>
+			</li>
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/news/" title="News">News</a>
+			</li>
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/portfolio/" title="Portfolio">Portfolio</a>
+			</li>
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/services/" title="Services">Services</a>
+			</li>
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/careers/" title="Careers">Careers</a>
+			</li>
+			
+			<li class="mobileNavLi">
+			    <a href="/resonancedev/contact/" title="Contact">Contact</a>
+			</li>
+			
+		</ul>
+	</div>
     </div>
   </div>
 </div>
@@ -186,5 +215,16 @@ Hosting with iWeb in Montreal provides a number of benefits: no shared server he
 	<script src="/resonancedev/js/flexslider.min.js"></script>
 	<!-- Initialisation Code  -->
 	<script src="/resonancedev/js/app.js"></script>
+	<script type="text/javascript">
+		$("#navMobile").addClass("js").before('<div id="menuMobile">&#9776;</div>');
+		$("#menuMobile").click(function(){
+			$("#navMobile").toggle();
+		});
+		$(window).resize(function(){
+			if(window.innerWidth > 768) {
+				$("#navMobile").removeAttr("style");
+			}
+		});
+	</script>
   </body>
 </html>
