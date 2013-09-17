@@ -335,9 +335,7 @@ margin-left: -135px;
 .margin {margin-left:0;margin-right:0;}
 .container {width:90%;margin-left:auto;margin-right:auto;min-width:200px; max-width:400px;}
 
-.headerLogo {
-	width:75%;
-}
+.headerLogo {width:75%;}
 .resdev-nav {display:none;}
 .footerNav {display:none;}
 .copyRight {margin-left: -10px;}
@@ -356,14 +354,14 @@ margin-left: -135px;
 	text-align: center;
 	padding-top: 25px;
 	color: #0378be;
+	float: left;
 }
 
 #navMobile.js {
 	display: none;
 }
 	
-#navMobile ul {
-}
+#navMobile ul {}
 #navMobile li {
 	background: #ffffff;
 	list-style-type: none;
