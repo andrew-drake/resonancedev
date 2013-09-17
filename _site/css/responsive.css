@@ -345,7 +345,8 @@ margin-left: -135px;
 	margin-left:180px;
 	margin-top: -150px;
 }
-#footer {margin-right:-50px}
+#footer {
+}
 .mobileNavBar {display:block;}
 .resdev-navbar-inner {z-index:999;}
 #menuMobile {
@@ -382,7 +383,6 @@ margin-left: -135px;
 .featuredHome {display:none;}
 .topHome {
 	height: 365px;
-	margin-right:-50px;
 }
 .topHomeTitle {
 	line-height: 35px;
@@ -393,11 +393,9 @@ margin-left: -135px;
 	margin-bottom: -66px;
 	margin-left: -55px;
 }
-.aboutHome{margin-right:-50px;}
 .btn-homeInfo{margin-left: -65px;}
 .middleHome {
 	height: 345px;
-	margin-right:-50px;
 }
 .aboutHomeIcons {padding-left: 20px;}
 .homeIconsImage{
@@ -405,7 +403,9 @@ margin-left: -135px;
 	max-width: 100%;
 	margin-left: -10px;
 }
-
+.navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 400px;
+}
 .middleHomeTitle {
 	padding-top: 30px;
 	font-size: 17px;
