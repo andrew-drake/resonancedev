@@ -226,7 +226,7 @@ margin-left: -135px;
 
 #menuMobile {
 	display: block;
-	background: #FFFFF;
+	background: #FFFFFF;
 	font-size: 4.35em;
 	padding-top: 36px;
 	color: #0378be;
@@ -334,10 +334,7 @@ margin-left: -135px;
 @media all and (max-width:489px) and (min-width:0px) {
 .margin {margin-left:0;margin-right:0;}
 .container {width:90%;margin-left:auto;margin-right:auto;min-width:200px; max-width:400px;}
-body {
-	margin-right: -150px;
-	margin-left:-50px
-}	
+
 .headerLogo {
 	width:75%;
 }
@@ -354,7 +351,7 @@ body {
 
 #menuMobile {
 	display: block;
-	background: #FFFFF;
+	background: #ffffff;
 	font-size: 4.35em;
 	text-align: center;
 	padding-top: 25px;
