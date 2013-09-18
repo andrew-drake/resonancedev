@@ -90,6 +90,55 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
+@media all and (max-width: 1199px) and (min-width:1100px) {
+
+.flexslider:hover .flex-prev {
+	top: 200px;
+	left: 400px;
+}
+.flexslider:hover .flex-next {
+	top: 200px;
+	left: 485px;
+}
+} /*end of 1100 - 1199*/
+
+@media all and (max-width: 1099px) and (min-width:980px) {
+
+.flexslider:hover .flex-next {
+	top: 200px;
+	left: 500px;
+}
+.flexslider:hover .flex-prev {
+	top: 200px;
+	left: 380px;
+}
+
+}/*end of 980 - 1099*/
+
+@media all and (max-width: 979px) and (min-width:780px) {
+.flexslider:hover .flex-next {
+	top: 240px;
+	left: 385px;
+}
+
+.flexslider:hover .flex-prev {
+	top: 240px;
+	left: 300px;
+}	
+} /*end of 790 - 979*/
+@media all and (max-width:779px) and (min-width:490px) {
+
+.flexslider:hover .flex-next {
+	top: 10px;
+	left: 200px;
+}
+
+.flexslider:hover .flex-prev {
+	top: 10px;
+	left: 140px;
+}
+}/*end of 490 - 779*/
+
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}

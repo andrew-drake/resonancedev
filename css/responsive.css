@@ -34,6 +34,10 @@
 }
 .newsLeft {width: 320px;}
 
+.flexslider:hover .flex-next {left: 485px;}
+
+.flexslider:hover .flex-prev {left: 400px;}
+
 /****************End Homepage 1100 Responsive Style*********************************/
 /****************Start Portfolio 1100 Responsive Style**********************/
 
