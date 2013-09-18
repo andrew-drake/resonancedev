@@ -90,6 +90,7 @@ body {padding-top: 100px;}
 	margin-left: -25px;
 }
 
+
 /****************End Homepage 980 Responsive Style*********************************/
 
 /****************Start Portfolio 980 Responsive Style**********************/
@@ -180,9 +181,7 @@ margin-left: -135px;
 	width: 200px;
 }
 
-.btn-homeInfo {
-	margin-left: -20px;
-}
+.btn-homeInfo {margin-left: -10px;}
 
 /****************End Homepage 780 Responsive Style*********************************/
 /****************Start News 780 Responsive Style**********************/
@@ -197,7 +196,8 @@ margin-left: -135px;
 /****************Start Portfolio 780 Responsive Style**********************/
 .portfolioRight {padding-right: 0px;}
 .portfolioLeft {width: 400px;}
-
+.portfolioTags {display:none;}
+.portfolioTitle {padding-bottom:10px;}
 /****************End Portfolio 780 Responsive Style**********************/
 
 /****************Start Contact 780 Responsive Style**********************/
@@ -205,7 +205,8 @@ margin-left: -135px;
 .contactTeamTitle {display:none;}
 .middleContactInfo {margin-left: 10px;}
 .middleContactInfo p {width: 730px;}
-
+.middleTopContactHR {width: 710px;}
+.middleBottomContactHR {width: 710px;}
 /****************End Contact 780 Responsive Style**********************/
 
 }/*end of media query*/
@@ -299,6 +300,7 @@ margin-left: -135px;
 }
 
 .aboutHomeTitle {padding-bottom: 10px;}
+.topHomeLearnMore {margin-left: 0px;}
 /*******************End of 490 home page responsive***********************/
 
 /****************Start News 490 Responsive Style**********************/

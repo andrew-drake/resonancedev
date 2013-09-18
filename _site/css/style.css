@@ -176,8 +176,10 @@
 	background-position:0px;
 }
 
-.topHomeLearnMore {padding-top:110px;}
-
+.topHomeLearnMore {
+	padding-top: 110px;
+	margin-left: -10px;
+}
 .topHomeTitle {
 	line-height: 40px;
 	width:715px;
