@@ -392,11 +392,13 @@ fieldset {
 .portfolioTitle {
 	font-size: 1.5em;
 	font-weight: bold;
+	color: #3fa4dc;
 }
 .portfolioTags {
 	max-width:670px;
 	padding-top:10px;
 	padding-bottom:10px;
+	color:#006eb7;
 }
 
 .projectInfoBox {
@@ -462,6 +464,7 @@ fieldset {
 	font-weight:bold;
 	padding-top:10px;
 	padding-bottom:10px;
+	color:#006eb7;
 }
 
 .newsImage {
@@ -489,14 +492,17 @@ fieldset {
 	width:100%;
 }
 
-a.careerTitle{
-	text-decoration:none;
+li.careerTitle {  
+	font-weight:bold;
+	font-size:15px;
+	color:#3fa4dc;
 }
 
 .careerSubtitle {
 	font-weight:bold;
 	padding-top:5px;
 	padding-bottom:5px;
+	color: #006eb7;
 }
 
 .careerImage {

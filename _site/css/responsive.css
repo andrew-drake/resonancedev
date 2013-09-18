@@ -300,7 +300,8 @@ margin-left: -135px;
 }
 
 .aboutHomeTitle {padding-bottom: 10px;}
-.topHomeLearnMore {margin-left: 0px;}
+.topHomeLearnMore {margin-left: 0px;
+}
 /*******************End of 490 home page responsive***********************/
 
 /****************Start News 490 Responsive Style**********************/
@@ -392,9 +393,12 @@ margin-left: -135px;
 	margin-bottom: -66px;
 	margin-left: -55px;
 }
+.aboutHome {padding-top:0px;}
+.aboutHome p {width:340px;}
 .btn-homeInfo{margin-left: -65px;}
 .middleHome {height: 345px;}
-.aboutHomeIcons {padding-left: 20px;}
+.aboutHomeIcons {display:none;}
+.aboutHomeIconsText {display:none;}
 .homeIconsImage{
 	height: 65px;
 	max-width: 100%;
