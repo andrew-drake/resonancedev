@@ -366,19 +366,21 @@ margin-left: -135px;
 	display: none;
 }
 .menuLogo {
-	margin-right: -190px;
-	margin-top: -45px;
+	margin-top: 0px;
 }
 #navMobile li {
 	border: 1px solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
 	background: #ffffff;
 	list-style-type: none;
 	width: 22%;
-	padding-left: 20px;
-	margin-left: 215px;
-	padding-top: 12px;
-	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 2px;
 	font-weight: bold;
+	margin-left: 20px;
 }
 #navMobile a {
 	text-decoration:none;
