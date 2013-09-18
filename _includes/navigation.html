@@ -20,9 +20,7 @@ v-collapse">
 	<div class="mobileNavBar">
 		<ul id="navMobile">
 			{% for link in site.navigation %}
-			<li class="mobileNavLi">
-			    <a href="{{link.url}}" title="{{link.title}}">{{link.title}}</a>
-			</li>
+			<a href="{{link.url}}" title="{{link.title}}"><li class="mobileNavLi">{{link.title}}</li></a>
 			{% endfor %}
 		</ul>
 	</div>

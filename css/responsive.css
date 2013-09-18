@@ -221,7 +221,7 @@ margin-left: -135px;
 	.resdev-nav {display:none;}
 	.footerNav {display:none;}
 	.copyRight {margin-left: -10px;}
-	.footerLogo {padding-top:0px}
+	.footerLogo {margin-left: -10px;}
 	.contactUs{width: 150px;}
 	.footer {
 		margin-left:270px;
@@ -237,16 +237,22 @@ margin-left: -135px;
 #navMobile.js {
 	display: none;
 }
-	
-#navMobile ul {
+.menuLogo {
+	margin-right: -248px;
+	margin-top: -50px;
+}
+.mobileNavLi{border:1px solid #005580;}
+.mobileNavLi:hover {
+	color:#3fa4dc;
 }
 #navMobile li {
 	background: #ffffff;
 	list-style-type: none;
-	width: 20%;
-	padding-left: 10px;
-	margin-left: 273px;
-	padding-top: 10px;
+	width: 11%;
+	padding-left: 20px;
+	margin-left: 208px;
+	padding-top: 12px;
+	padding-bottom:5px;
 	font-weight: bold;
 }
 #navMobile a {
@@ -354,18 +360,19 @@ margin-left: -135px;
 #menuMobile {
 	width:50px;
 	height:50px;
-}
-
+	}
+#navMobile ul{padding-top:20px}
 #navMobile.js {
 	display: none;
 }
 #navMobile li {
 	background: #ffffff;
 	list-style-type: none;
-	width: 20%;
-	padding-left: 10px;
-	margin-left: 273px;
-	padding-top: 10px;
+	width: 9%;
+	padding-left: 20px;
+	margin-left: 271px;
+	padding-top: 12px;
+	padding-bottom: 5px;
 	font-weight: bold;
 }
 #navMobile a {
