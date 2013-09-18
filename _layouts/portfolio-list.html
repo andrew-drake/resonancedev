@@ -21,9 +21,9 @@
 							<fieldset class="projectInfoBox">
 								<legend>Project Information</legend>
 									<ul class="projectInfo">
-										<li><div class="fieldLabel">Client: </div><div class="fieldItem"> {{ items.client }}</li>
-										<li><div class="fieldLabel">Launch Date: </div><div class="fieldItem"> {{ items.launch_date }}</li>
-										{% if items.link %}<li><div class="fieldLabel">Link:</div><div class="fieldItem"> {{ items.link }}</li>{% endif %}	
+										<li><div class="fieldLabel">Client: </div><div class="fieldItem">{{ items.client }}</div></li>
+										<li><div class="fieldLabel">Launch Date: </div><div class="fieldItem">{{ items.launch_date }}</div></li>
+										{% if items.link %}<li><div class="fieldLabel">Link:</div><a href="{{items.link}}" target="_blank"><div class="fieldItem"> {{ items.link }}</div></a></li>{% endif %}	
 									</ul>
 							</fieldset>
 							<div class="portfolioImage">
